@@ -1,7 +1,7 @@
 {
   "name": "test-rest-api",
   "version": "1.0.0",
-  "description": "rest api, nodejs",
+  "description": "practice expressjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/gilank017/test-rest-api/issues"
   },
-  "homepage": "https://github.com/gilank017/test-rest-api#readme"
+  "homepage": "https://github.com/gilank017/test-rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
 }
